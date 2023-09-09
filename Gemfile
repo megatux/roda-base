@@ -15,4 +15,7 @@ gem "dry-configurable", "~> 0.15.0"
 gem "dotenv", "~> 2.8"
 gem "concurrent-ruby", "~> 1.1"
 
+gem "phlex"
+gem "htmx", "~> 0.3.0"
 gem "standard", group: [:development, :test]
+gem "byebug", group: [:development, :test]
