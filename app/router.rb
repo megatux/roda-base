@@ -6,6 +6,8 @@ require "byebug"
 
 class Router < Roda
   plugin :all_verbs
+  plugin :sessions, secret: Settings.secret_key
+  plugin :route_csrf
 
   route do |r|
     r.root do
